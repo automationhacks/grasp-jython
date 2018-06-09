@@ -1,1 +1,0 @@
-print('Jython: Hello there!')

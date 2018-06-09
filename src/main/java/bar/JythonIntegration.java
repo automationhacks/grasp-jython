@@ -19,5 +19,7 @@ public class JythonIntegration {
         interp.exec("x = 2 + 6");
         PyObject x = interp.get("x");
         System.out.println("x from jython: " + x);
+
+        interp.cleanup();
     }
 }

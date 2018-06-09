@@ -1,3 +1,5 @@
+# importing and using a java array list in jython code
+
 import java.util.ArrayList as ArrayList
 
 aList = ArrayList()
