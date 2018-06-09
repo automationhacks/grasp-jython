@@ -9,7 +9,7 @@ public class JythonIntegration {
         System.out.println("Java: Hello World");
 
         // execute a py script file
-        interp.execfile("/Users/gaurav/playground/jython_demo/scripts/py_client.py");
+        interp.execfile("src/main/python/py_client.py");
 
         // set var in interpreter and print using jython
         interp.set("a", new PyInteger(42));
